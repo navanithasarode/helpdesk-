@@ -199,5 +199,5 @@ function setCapacity(state, teamId, capacity) {
 
 module.exports = {
   createState, dispatch, startWork, resolveReport,
-  setAvailability, setCapacity, processWaitingQueue,
+  setAvailability, setCapacity, processWaitingQueue, sortQueue,
 };
